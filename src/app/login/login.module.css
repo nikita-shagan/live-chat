@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginform__input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.loginform__button {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(33, 144, 233);
+    border-radius: 5px;
+    border: none;
+    transition: background-color .2s linear;
+}
+
+.loginform__button:hover {
+    background-color: rgb(30, 128, 206)
+}
+
+.loginform__button:disabled {
+    background-color: gray;
+    cursor: initial;
+}
