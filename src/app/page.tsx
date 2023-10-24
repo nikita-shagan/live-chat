@@ -19,7 +19,7 @@ export default function Home() {
 
   const dispatch = useDispatch<AppDispatch>();
 
-  const socket: any = io('http://localhost:3001');
+  const socket: any = io('http://localhost:4401');
 
   useEffect(() => {
     const loggedInName = localStorage.getItem('loggedInName')
